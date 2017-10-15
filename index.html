@@ -10,37 +10,68 @@
 </head>
 
 <body>
+    <form style="float:right; padding: 3% 5% 1% 0%">
+        Username:<br>
+        <input type="text" name="firstname"><br> Password:<br>
+        <input type="text" name="lastname">
+    </form>
     <div id="main">
         <div id="header">
             <div id="logo">
                 <div id="logo_text">
                     <!-- class="logo_colour", allows you to change the colour of the text -->
-                    <h1><a href="index.html">simple<span class="logo_colour">style_horizon</span></a></h1>
-                    <h2>Simple. Contemporary. Website Template.</h2>
+                    <h1><a href="index.html">Guilford<span class="logo_colour"> Food Network</span></a></h1>
+                    <h2>People Helping People</h2>
                 </div>
             </div>
             <div id="menubar">
                 <ul id="menu">
                     <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
 
-                    <li class="selected"><a href="index.html">Home</a></li>
+
+
+                    <li><a href="index.html">Home</a></li>
                     <!--li class="selected"><a href="index.html">Get Food</a-->
                     <li>
                         <div class="dropdown">
                             <button class="dropbtn">Get Food</button>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a class="sub-menu-link" href="#">Pantry Items</a>
+                                <a class="sub-menu-link" href="#">Meals</a>
+                                <!--a href="#">Link 3</a-->
                             </div>
                         </div>
                     </li>
 
-                    <li><a href="examples.html">Donate</a></li>
-                    <li><a href="page.html">Events</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Donate</button>
+                            <div class="dropdown-content">
+                                <a class="sub-menu-link" href="#">Commercial</a>
+                                <a class="sub-menu-link" href="#">Farmers</a>
+                                <a class="sub-menu-link" href="#">A Simple Gesture</a>
+
+                                <!--a href="#">Link 3</a-->
+                            </div>
+                        </div>
+                    </li>
+
+                    <!--<li><a href="examples.html">Donate</a></li>-->
+                    <li><a href="events.html">Events</a></li>
                     <li><a href="another_page.html">Connect</a></li>
-                    <li class="selected"><a href="index.html">Admin</a></li>
+                    <li><a href="index.html">Admin</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
+
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Register</button>
+                            <div class="dropdown-content">
+                                <a class="sub-menu-link" href="Consumer_registration.html">Consumer</a>
+                                <a class="sub-menu-link" href="Donor_registration.html">Donor</a>
+                                <!--a href="#">Link 3</a-->
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -52,7 +83,9 @@
                     <div class="sidebar_top"></div>
                     <div class="sidebar_item">
                         <!-- insert your sidebar items here -->
-                        <h3>Latest News</h3>
+                        <h1>Register Here</h1>
+                        <button><a href="registration.html"><h3>Click here to register as Consumer</h3></a></button>
+                        <button><a href="registration.html"><h3>Click here to register as Donor</h3></a></button>
                         <h4>New Website Launched</h4>
                         <h5>February 1st, 2014</h5>
                         <p>2014 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
@@ -99,8 +132,8 @@
             <div id="content">
                 <div class="event_container">
                     <h1>Weekly Events</h1>
-                    <p>This standards compliant, simple, fixed width website template is released as an 'open source' design (under a <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons Attribution 3.0 Licence</a>), which means that you
-                        are free to download and use it for anything you want (including modifying and amending it). All I ask is that you leave the 'design from HTML5webtemplates.co.uk' link in the footer of the template, but other than that...</p>
+                    <p><a href="file:///Users/jym1l/Documents/TheMangias/events.html">The Walmart Food Drive of Greensboro</a>October 15, 2017 9:30 AM</p>
+                    <p><a href="file:///Users/jym1l/Documents/TheMangias/events.html">The Goodwill Food Drive</a>October 17, 2017 9:30 AM</p>
                 </div><br>
 
 

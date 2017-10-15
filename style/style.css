@@ -140,8 +140,8 @@ ol li {
 }
 
 #banner {
-    background: transparent url(banner.jpg) no-repeat;
-    width: 860px;
+    background: transparent url(girlscouts.jpg) no-repeat;
+    width: 840px;
     height: 180px;
     margin-bottom: 20px;
     border: 10px solid #DDD;
@@ -197,16 +197,16 @@ ol li {
     padding-right: 8px;
     background: #2D2D2D;
     border-top: 1px solid #3D3D3D;
+    text-align: center
 }
 
 ul#menu {
-    float: right;
+    display: inline-block;
     margin: 0;
 }
 
 ul#menu li {
     float: left;
-    padding: 0 0 0 9px;
     list-style: none;
     margin: 8px 4px 0 4px;
 }
@@ -220,7 +220,7 @@ ul#menu li a {
     text-align: center;
     color: #FFF;
     text-decoration: none;
-    background: #5E4238;
+    background: #B48A7C;
 }
 
 ul#menu li.selected a {
@@ -240,7 +240,7 @@ ul#menu li.selected a:hover {
 }
 
 ul#menu li a:hover {
-    color: #B48A7C;
+    color: rgb(243, 238, 236);
 }
 
 #site_content {
@@ -250,14 +250,9 @@ ul#menu li a:hover {
     padding: 0 0 10px 0;
 }
 
-
-/* #event {
-    border-radius: 25px;
-    background: #73AD21;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
-} */
+a.sub-menu-link {
+    height: 40px !important;
+}
 
 .event_container {
     border-radius: 25px;
@@ -278,8 +273,8 @@ ul#menu li a:hover {
 .dropbtn {
     background-color: #B48A7C;
     color: white;
-    padding: 16px;
-    font-size: 16px;
+    padding: 6px 15px 10px 15px;
+    font: normal 100% 'trebuchet ms', sans-serif;
     border: none;
     cursor: pointer;
 }
@@ -298,9 +293,9 @@ ul#menu li a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: #B48A7C;
+    min-width: 82px;
+    box-shadow: 0px 8px 16px 0px rgb(245, 241, 241);
     z-index: 1;
 }
 
@@ -308,7 +303,7 @@ ul#menu li a:hover {
 /* Links inside the dropdown */
 
 .dropdown-content a {
-    color: black;
+    color: #B48A7C;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -332,7 +327,7 @@ ul#menu li a:hover {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #B48A7C;
 }
 
 #sidebar_container {
